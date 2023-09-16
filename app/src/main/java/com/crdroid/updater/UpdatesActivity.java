@@ -267,7 +267,7 @@ public class UpdatesActivity extends UpdatesListActivity implements UpdateImport
     public boolean onOptionsItemSelected(MenuItem item) {
         int itemId = item.getItemId();
         if (itemId == R.id.menu_refresh) {
-            downloadUpdatesList(true);
+            // downloadUpdatesList(true);
             return true;
         } else if (itemId == R.id.menu_preferences) {
             showPreferencesDialog();
