@@ -411,7 +411,7 @@ public class Utils {
     }
 
     public static boolean isUpdateCheckEnabled(Context context) {
-        return getUpdateCheckSetting(context) != Constants.AUTO_UPDATES_CHECK_INTERVAL_NEVER;
+        return false;
     }
 
     public static long getUpdateCheckInterval(Context context) {
